@@ -1,0 +1,71 @@
+footer{
+    /* width: 1440px; */
+    height: 74px;
+    background-color: #FAFAFA;
+    padding: 25px 0px 25px 0px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.tex {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #737373;
+}
+
+.col2 {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.social{
+    display: flex;
+    color: #96BB7C;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+}
+
+.sm{
+    height: 50px;
+    width: 50px;
+}
+
+.fa-brands{
+    display: flex;
+    align-items: center;
+    /* background-color: chartreuse; */
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+}
+
+.fa-facebook{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.btn-whatsapp{
+    position: fixed;
+    bottom: 90px;
+    right: 270px
+}
